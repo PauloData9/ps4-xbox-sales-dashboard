@@ -61,7 +61,7 @@ O dashboard final é composto por:
 - Top 5 Jogos por Vendas (PS4)
 - Top 5 Jogos por Vendas (Xbox One)
 - Top 5 Publishers por Vendas (PS4)
-- *Top 5 Publishers por Vendas (Xbox One)
+- Top 5 Publishers por Vendas (Xbox One)
 
 ---
 
