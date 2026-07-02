@@ -1,82 +1,135 @@
-# 📊 **PS4 vs Xbox One — Vendas Globais de Jogos**
+# PS4 vs Xbox One - Global Game Sales Dashboard
 
-## 📌 **Objetivo do Projeto**
-Este projeto tem como objetivo a criação de um **dashboard de apoio à tomada de decisão**, focado na **comparação de desempenho de vendas entre as plataformas PS4 e Xbox One**.
+Dashboard analítico desenvolvido no Microsoft Excel para comparar o desempenho global de vendas entre as plataformas PlayStation 4 e Xbox One, apoiando análises de mercado por meio de dados históricos de vendas de jogos.
 
-A partir de uma base de dados de vendas de jogos, os dados brutos foram transformados em **informações visuais**, permitindo analisar diferenças de performance entre plataformas, regiões, gêneros, anos de lançamento, publishers e títulos.
+**Status**: Concluído
 
-Todos os valores apresentados no dashboard estão em **milhões de unidades vendidas**.
+**Tipo de projeto**: Dashboard Analítico
 
----
+**Base de dados**: Video Game Sales Dataset (Kaggle)
 
-## 🧠 **Perguntas de Negócio Respondidas**
+**Segmento**: Mercado de Games
 
-O dashboard foi desenvolvido para responder às seguintes perguntas:
+**Ferramenta principal**: Microsoft Excel
 
-1. Qual plataforma apresenta maior volume de vendas globais?
-2. Em quais regiões cada plataforma performa melhor?
-3. Quais gêneros concentram o maior volume de vendas?
-4. Como as vendas se distribuem por ano de lançamento dos jogos (2013–2016)?
-5. Quais publishers mais contribuem para as vendas em cada plataforma?
-6. Quais jogos concentram a maior parte das vendas em cada console?
+**Objetivo**: Comparar o desempenho comercial entre PlayStation 4 e Xbox One utilizando dados históricos de vendas globais.
 
 ---
 
-## 🗂 **Base de Dados**
-A base de dados utilizada neste projeto é de **acesso público** e foi obtida a partir da plataforma **Kaggle**, contendo informações históricas de vendas de jogos para as plataformas PS4 e Xbox One. Os dados foram utilizados exclusivamente para fins educacionais e analíticos, com foco em exploração, agregação e visualização das informações.
+## Dashboard
 
-- Base com aproximadamente **640 registros**
-- Cada linha representa um jogo lançado para **PS4 ou Xbox One**
-- Principais informações disponíveis:
-  - Plataforma
-  - Ano de lançamento
-  - Gênero
-  - Publisher
-  - Vendas por região (NA, EU, JP e Other)
-  - Vendas globais
+![Dashboard](assets/dashboard.png)
 
 ---
 
-## ⚙️ **Processamento e Análise**
-- Utilização de **Tabelas Dinâmicas** para agregação e análise dos dados
-- Criação de métricas de vendas globais, regionais e segmentadas
-- Construção de rankings (**Top 5**) para jogos e publishers
-- Aplicação de **segmentação de dados por ano de lançamento**, permitindo análise dinâmica do dashboard
+## Sobre o projeto
+
+O mercado de jogos eletrônicos apresenta diferenças significativas entre plataformas, regiões, gêneros e publishers. Compreender esses padrões é essencial para apoiar decisões relacionadas à distribuição, posicionamento de produtos e identificação de oportunidades de mercado.
+
+Neste projeto foi desenvolvido um dashboard analítico no Microsoft Excel com o objetivo de comparar o desempenho comercial das plataformas PlayStation 4 e Xbox One por meio da análise de dados históricos de vendas globais de jogos.
 
 ---
 
-## 📊 **Dashboard**
-O dashboard final é composto por:
+## Contexto de negócio
 
-### **Indicadores principais**
-- Vendas Globais — PS4
+Empresas do setor de games utilizam dados de vendas para compreender o comportamento do mercado, identificar tendências de consumo e avaliar o desempenho de diferentes plataformas.
+
+Nesse contexto, comparar os resultados entre PlayStation 4 e Xbox One permite identificar diferenças regionais, gêneros de maior sucesso, publishers com melhor desempenho e títulos que concentraram maior volume de vendas durante o período analisado.
+
+---
+
+## Objetivo
+
+Desenvolver um dashboard analítico que permita:
+
+- comparar o desempenho comercial entre PlayStation 4 e Xbox One;
+- analisar vendas por região;
+- acompanhar a evolução das vendas ao longo do tempo;
+- identificar os gêneros com maior volume de vendas;
+- analisar os publishers mais relevantes de cada plataforma;
+- identificar os jogos com melhor desempenho comercial.
+
+---
+
+## Capacidades analíticas
+
+- Comparação entre plataformas
+- Comparação de vendas por região
+- Evolução temporal das vendas
+- Comparação por gênero
+- Ranking dos jogos mais vendidos
+- Ranking dos principais publishers
+- Segmentação dinâmica por ano de lançamento
+
+---
+
+## Indicadores monitorados
+
+- Vendas Globais — PlayStation 4
 - Vendas Globais — Xbox One
 
-### **Análises comparativas**
-- Vendas por Região
-- Vendas por Gênero
-- Vendas por Ano de Lançamento (2013–2016)
+---
 
-### **Análises de apoio**
-- Top 5 Jogos por Vendas (PS4)
-- Top 5 Jogos por Vendas (Xbox One)
-- Top 5 Publishers por Vendas (PS4)
-- Top 5 Publishers por Vendas (Xbox One)
+## Principais análises
+
+- Comparação das vendas globais entre PlayStation 4 e Xbox One
+- Distribuição das vendas por região
+- Evolução das vendas por ano de lançamento (2013–2016)
+- Comparação das vendas por gênero
+- Ranking dos cinco jogos mais vendidos por plataforma
+- Ranking dos cinco principais publishers por plataforma
 
 ---
 
-## 🔍 **Principais Insights**
-- O **PS4 apresenta maior volume de vendas globais** em relação ao Xbox One.
-- As regiões **América do Norte e Europa** concentram a maior parte das vendas em ambas as plataformas.
-- **Action e Shooter** são os gêneros com maior representatividade em volume de vendas.
-- O ano de **2015 concentra o maior volume de vendas**, considerando o ano de lançamento dos jogos.
-- Publishers e títulos apresentam **perfis distintos por plataforma**, reforçando a importância de análises separadas para rankings.
+## Principais insights
+
+- O **PlayStation 4** apresentou maior volume de vendas globais em comparação ao **Xbox One**, indicando melhor desempenho comercial no período analisado.
+
+- As regiões **América do Norte** e **Europa** concentraram a maior parte das vendas em ambas as plataformas, destacando-se como os principais mercados consumidores.
+
+- Os gêneros **Action** e **Shooter** representaram o maior volume de vendas, evidenciando a preferência do mercado por esses segmentos durante o período analisado.
+
+- O ano de **2015** concentrou o maior volume de vendas entre os jogos lançados, seguido por redução em 2016.
+
+- Os rankings demonstraram diferenças entre os principais jogos e publishers de cada plataforma, indicando perfis comerciais distintos entre PlayStation 4 e Xbox One.
 
 ---
 
-## 🛠 **Ferramentas Utilizadas**
-  - Microsoft Excel
-  - Tabelas Dinâmicas
-  - Gráficos Dinâmicos
-  - Segmentação de Dados
-  - Construção e formatação de dashboards
+## Tecnologias utilizadas
+
+- Microsoft Excel
+- Tabelas Dinâmicas
+- Gráficos Dinâmicos
+- Segmentação de Dados
+- Dashboard Interativo
+
+---
+
+## Estrutura do projeto
+
+```text
+.
+├── assets/
+│   └── dashboard.png
+├── dashboard/
+│   └── PS4_vs_Xbox_Dashboard.xlsx
+├── data/
+│   └── videogame-sales-dataset.xlsx
+├── README.md
+└── LICENSE
+```
+
+---
+
+## Como visualizar
+
+Para explorar o dashboard, basta abrir o arquivo `dashboard/PS4_vs_Xbox_Dashboard.xlsx` utilizando o Microsoft Excel.
+
+---
+
+## Autor
+
+**Paulo Ricardo Costa Mariano de Souza**
+
+- GitHub: https://github.com/PauloData9
+- LinkedIn: https://www.linkedin.com/in/paulo-ricardo-costa-mariano-de-souza-834585376
