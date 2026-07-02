@@ -115,6 +115,8 @@ Desenvolver um dashboard analítico que permita:
 │   └── PS4_vs_Xbox_Dashboard.xlsx
 ├── data/
 │   └── videogame-sales-dataset.xlsx
+├── docs/
+│   └── dashboard.pdf
 ├── README.md
 └── LICENSE
 ```
@@ -124,6 +126,8 @@ Desenvolver um dashboard analítico que permita:
 ## Como visualizar
 
 Para explorar o dashboard, basta abrir o arquivo `dashboard/PS4_vs_Xbox_Dashboard.xlsx` utilizando o Microsoft Excel.
+
+Também é possível visualizar uma versão estática do dashboard por meio do arquivo PDF disponível na pasta `docs`.
 
 ---
 
